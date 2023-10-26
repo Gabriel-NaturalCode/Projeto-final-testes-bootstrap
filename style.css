@@ -2,6 +2,38 @@ html {
     scroll-behavior: smooth;
 }
 
+@media (min-width: 1020px) {
+
+    .bg-grad {
+        background-image: linear-gradient(to bottom, white 90%, #eb3d3773) !important;
+    }
+
+    .compras {
+        width: 330px !important;
+        position: absolute;
+        left: 205px;
+        top: 21px
+    }
+
+    .h1-home {
+        font-size: 50px;
+        position: absolute;
+        left: 623px;
+        top: 96px;
+    }
+
+    .phome {
+        font-size: 25px;
+        width: 350px;
+        position: absolute;
+        left: 623px;
+        top: 272px;
+    }
+
+
+}
+
+
 .tabela {
     padding: 0px 0px 0px 50px;
     overflow-x: auto;
