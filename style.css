@@ -1,4 +1,6 @@
-@media (max-width: 768px) {
+html {
+    scroll-behavior: smooth;
+}
 
 .tabela {
     padding: 0px 0px 0px 50px;
@@ -36,6 +38,4 @@
 #para3 {
     background-image: url('../imagens/mexicana-parallax.jpeg');
     margin-bottom: 1000px;
-}
-
 }
