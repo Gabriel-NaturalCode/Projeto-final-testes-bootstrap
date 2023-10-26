@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+
+.tabela {
+    padding: 0px 0px 0px 50px;
+    overflow-x: auto;
+}
+
+.div-tabela > h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-size: 1.5em;
+    background-color: #EB3E37;
+    color: white;
+    border-radius: 5px;
+}
+
+.imagem-parallax {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 15px 0px rgba(0, 0, 0, 0.664);
+}
+
+#para1 {
+    background-image: url('../imagens/burguer-parallax.jpeg');
+}
+
+#para2 {
+    background-image: url('../imagens/japaparallax.jpeg');
+    margin-top: 800px;
+}
+
+#para3 {
+    background-image: url('../imagens/mexicana-parallax.jpeg');
+    margin-bottom: 1000px;
+}
+
+}
