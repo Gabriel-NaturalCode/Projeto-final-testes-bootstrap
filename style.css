@@ -4,10 +4,6 @@ html {
 
 @media (min-width: 1020px) {
 
-    .bg-grad {
-        background-image: linear-gradient(to bottom, white 90%, #eb3d3773) !important;
-    }
-
     .compras {
         width: 330px !important;
         position: absolute;
