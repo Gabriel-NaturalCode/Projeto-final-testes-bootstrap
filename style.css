@@ -26,9 +26,7 @@ html {
         top: 272px;
     }
 
-
 }
-
 
 .tabela {
     padding: 0px 0px 0px 50px;
@@ -55,15 +53,22 @@ html {
 }
 
 #para1 {
-    background-image: url('./imagens/burguer-parallax.jpeg');
+    background-image: url('./imagens/burger.jpeg');
 }
 
 #para2 {
     background-image: url('./imagens/japaparallax.jpeg');
-    margin-top: 800px;
 }
 
 #para3 {
     background-image: url('./imagens/mexicana-parallax.jpeg');
-    margin-bottom: 1000px;
+}
+
+footer {
+    margin: 50px;
+    text-align: center;
+}
+
+.logo-footer {
+    margin-bottom: 10px;
 }
