@@ -23,9 +23,40 @@ html {
         width: 350px;
         position: absolute;
         left: 623px;
-        top: 272px;
+        top: 240px;
     }
 
+    .btn-home {
+        position: absolute !important;
+        left: 911px !important;
+        top: 431px !important;
+    }
+
+}
+
+.cardapio {
+    width: auto;
+    padding: 25px;
+    
+}
+
+.titulo-cardapio {
+    padding: 10px;
+    text-align: center;
+    background-color: #EB3E37;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.card {
+    margin: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 
 .tabela {
@@ -44,7 +75,7 @@ html {
 }
 
 .imagem-parallax {
-    height: 200px;
+    height: 150px;
     width: 100%;
     background-size: cover;
     background-position: center center;
@@ -53,7 +84,7 @@ html {
 }
 
 #para1 {
-    background-image: url('./imagens/burger.jpeg');
+    background-image: url('./imagens/burguer-parallax.jpeg');
 }
 
 #para2 {
@@ -67,8 +98,13 @@ html {
 footer {
     margin: 50px;
     text-align: center;
+    color: #4b4b4b;
 }
 
 .logo-footer {
-    margin-bottom: 10px;
+    margin: 20px auto;
+}
+
+.copy-footer {
+    font-size: 12px;
 }
